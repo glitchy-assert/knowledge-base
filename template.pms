@@ -1,0 +1,35 @@
+:title Template
+:created-date 2025/07/03
+:description Basic template for all documents
+:last-modified-date nil
+:tags #template #pms
+:source git@github.com:glitchy-assert/knowledge-base.git
+:author glitchy-assert
+
+:tldr
+:etldr
+
+:text
+Just an example of the text in the template. Unlike in markdown, lines are only
+of 80 characters length.
+
+The paragraphs are separated by an empty new line (suppose it will be `\n`).
+Code is written like this:
+```:lang json
+{
+    "name": "example",
+    "items": [1, null, "test"]
+}
+```
+
+Links can be inside a document like this (:first) - which will just paste a
+link, or (:first)[Link to my repo].
+
+You can even paste images like (:cat-image)[alt text if you ever wish to
+parse it]
+:etext
+
+:links
+| (:first) https://github.com/glitchy-assert/knowledge-base
+| (:cat-image) ./assets/cat.png
+:elinks

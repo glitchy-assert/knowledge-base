@@ -1,0 +1,44 @@
+:title What is *.pms file format
+:created-date 2025/07/03
+:description Overview of the *.pms file format and it's purpose
+:last-modified-date nil
+:tags #pms #description
+:source git@github.com:glitchy-assert/knowledge-base.git
+:author glitchy-assert
+
+:tldr
+PMS - is a plain text file format that allows me to store information in an
+universally readable format. I expect to store articles, tables and lots of
+other personal (not so, otherwise I wouldn't create a public repo ;)).
+:etldr
+
+:text
+This is a text title, not *.pms one
+===================================
+
+This is a text sub-header
+-------------------------
+
+Do you need more? This is a paragraph. It doesn't need 2 spaces at the end of
+the line. It can have any amount of line breaks, since I want to have maximum
+line length of 80. Just add an empty new line.
+
+So this is what new paragraph feels like.
+> This is a quote.
+You can easily have quotes, code and any other items in your paragraphs.
+> Rachel said:
+> > Here should be a double quote
+> > > Here should be a truple quote
+And here should be any arbitrary code:
+```:lang python
+def greeting(name: str) -> None:
+    print(f"Hello, {name}! Nice to meet you here!")
+```
+You can _underscore_ text, make it *bold*, or even /italic/. If you like code,
+feel free to make it `monospaced`. All text in monospaced lacks any 
+formatting.
+
+You can add links (:first) - a plain link.
+You can name links (:first)[Link somewhere].
+All links should be after the end of the text, in `:links`
+:etext
